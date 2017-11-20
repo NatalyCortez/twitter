@@ -55,13 +55,11 @@ form {
   line-height: 30px;
 }
 textarea {
-  color: rgba(206, 204, 204, 0.5);
   font-size: 20px;
   border: none;
   margin-left: 20px;
   width: 550px;
   height: 40px;
-  background: transparent;
 }
 .tweet-post hr {
   height: 2px;
@@ -80,6 +78,16 @@ textarea {
   width: 100px;
   margin-left: 20px;
   font-weight: 900;
+}
+/*clases de js*/
+li {
+  background: #fff;
+  width: 1008px;
+  height: 60px;
+  border-radius: 50%;
+}
+.active {
+  background: blue;
 }
 /*clases reutilizables*/
 .color-white{
