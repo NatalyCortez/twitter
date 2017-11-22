@@ -1,21 +1,23 @@
 window.addEventListener('load', function() {
-  var text = document.getElementById('insert-posts');
+  var tweetarea = document.getElementById('tweetarea');
   var buttonTweet = document.getElementById('button');
-  var list = document.getElementById('container-posts');
-  var boxRight = document.getElementById('box-right');
+  var countDinamic = document.getElementById('count');
+  var massage = document.getElementById('message');
+  var MAXCHARACTER = 140;
 
-  buttonTweet.addEventListener('click', function(event) {
-    if (text.value) {
-      buttonTweet.setAttribute('class', 'active');
-      var li = document.createElement('li');
-      var post = document.createElement('p');
-
-      post.textContent = text.value;
-      post.setAttribute('class', 'post');
-      li.appendChild(post);
-      list.appendChild(li);
-      text.value = '';
+  tweetarea.addEventListener("keyup",function(event){
+    if (event.target.value.trin().length); {
+    var total = MAXCHARACTER - event.target.value.trin().length;
+      tweetarea.disable = false;
+      console.log(event.target.value.trin());
+    } else {
+      tweetarea.diasble = true;
+      countDinamic.textContent = MAXCHARACTER;
+      console.log("Caja vacía");
     }
-  })
-  /*boxRight.addEventListener('keydown', autosize);*/
+console.log(event.target.value.trin());
+console.log(target.value.trin().length);
+    }
 });
+
+buttonTweet

@@ -19,7 +19,7 @@ header p {
  font-size: 25px;
 }
 #box-left {
-  height: 250px;
+  height: 220px;
   width: 594px;
   margin-left: 80px;
   margin-top: 80px;
@@ -37,7 +37,7 @@ header p {
   margin: 20px 0;
   height: 2px;
   border: none;
-  background-color: rgba(219, 219, 219, 0.5);
+  background-color: rgb(219, 219, 219,);
 }
 #box-left h3 {
   color: rgb(41,134,178);
@@ -55,19 +55,17 @@ form {
   line-height: 30px;
 }
 textarea {
-  color: rgba(206, 204, 204, 0.5);
-  font-size: 20px;
+  font-size: 15px;
   border: none;
   margin-left: 20px;
   width: 550px;
-  height: 40px;
-  background: transparent;
+  height: 50px;
 }
 .tweet-post hr {
   height: 2px;
   border: none;
   background-color: rgb(41,134,178);
-  margin: 20px 0;
+  margin: 15px 0;
 }
 .tweet-post #button {
   height: 40px;
@@ -80,6 +78,11 @@ textarea {
   width: 100px;
   margin-left: 20px;
   font-weight: 900;
+}
+#count {
+  color: rgb(41,134,178);
+  margin-left: 400px;
+  font-size: 22px;
 }
 /*clases reutilizables*/
 .color-white{

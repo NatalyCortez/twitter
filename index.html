@@ -20,13 +20,17 @@
 
     <form class="tweet-post" action="index.html" method="post">
       <div class="background-white" id="box-right">
-        <textarea ID="area" COLS=20 ROWS=10>
-        ¿Qué estas pensando?</textarea><br>
+        <textarea id="tweetarea"placeholder="¿Qué estas pensando?"autofocus></textarea>
         <hr>
-        <input id="button"type="submit" value="TWEET">
-        <input type="button" onClick="wordCount();">
-        </form>
+        <input id="button"type="submit" value="TWEET" disabled>
+        <span id="count" class="count">140</span>
+        </div>
+    </form>
+
+    <div class="">
+
     </div>
+
 
     <script type="text/javascript" src="js/app.js"></script>
 
